@@ -32,7 +32,7 @@ let avatar = new film("Avatar", 120, 30, 300);
 
 console.log(avatar.getTickets());
 
-
+aaa
 
 
 
