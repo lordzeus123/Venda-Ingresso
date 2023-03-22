@@ -32,10 +32,10 @@ let avatar = new film("Avatar", 120, 30, 300);
 
 console.log(avatar.getTickets());
 
-aaa
 
 
 
-module.exports.film = film;
+
+exports.film = film;
 
 

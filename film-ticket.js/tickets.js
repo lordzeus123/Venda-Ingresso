@@ -1,9 +1,21 @@
-class ticket {
-    constructor(idTicket, film, long) {
-        this.idTicket = idTicket,
-        this.film = film,
-        this.long = long
-    };
+ const { film } = require("./film.js");
 
-    
+class tickets {
+    constructor(film) {
+        ticketsAmount = film.tickets;
+        ticketValue = film.ticketValue;
+
+    }
+
+    getTicketsAmount() {
+        return ticketsAmount;
+    }
+
+    getTicketsValue () {
+        return ticketValue;
+    }
+
 }
+
+
+
