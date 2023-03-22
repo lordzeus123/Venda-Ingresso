@@ -1,0 +1,5 @@
+class ticket {
+    constructor(id) {
+        
+    }
+}
